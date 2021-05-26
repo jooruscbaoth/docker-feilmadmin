@@ -14,9 +14,9 @@ services:
       - 27000-27009:27000-27009
 #    secrets:
 #      - amira-avizo_license_2020.3
-    deploy:
-      mode: replicated
-      replicas: 1
+#    deploy:
+#      mode: replicated
+#      replicas: 1
 
 #secrets:
 #  amira-avizo_license_2020.3:
